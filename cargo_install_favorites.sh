@@ -33,3 +33,5 @@ cargo install fixedbitset
 cargo install commoncrypto-sys
 cargo install unicode-segmentation
 cargo install bstr
+cargo install cargo-watch
+cargo install cargo-do
