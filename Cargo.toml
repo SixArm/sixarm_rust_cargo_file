@@ -198,6 +198,9 @@ ignore = "*"
 # A hash table with consistent order and fast iteration. 
 indexmap = "*"
 
+# Fast functions for printing integer primitives to an io::Write.
+itoa = "*"
+
 # FFI bindings for libnghttp2 (nghttp2).
 libnghttp2-sys = "*"
 
