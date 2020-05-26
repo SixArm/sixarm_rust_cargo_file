@@ -93,6 +93,9 @@ console = "*"
 content_inspector = "*"
 
 # Bindings to Core Foundation for macOS.
+core-foundation = "*"
+
+# Bindings to Core Foundation for macOS.
 core-foundation-sys = "*"
 
 # Rust bindings to libcurl for making HTTP requests.
