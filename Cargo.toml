@@ -62,6 +62,9 @@ cargo-tree = "*"
 # Watch over your Cargo project’s source.
 cargo-watch = "*"
 
+# A macro to ergonomically define an item depending on a large number of #[cfg] parameters.
+cfg-if = "*"
+
 #  Date and time library for Rust.
 chrono = { version = "*", features = ["serde"] }
 
