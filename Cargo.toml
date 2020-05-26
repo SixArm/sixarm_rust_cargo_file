@@ -6,109 +6,79 @@ edition = "2019"
 
 [dependencies]
 
-##
-#
-# Command line favorites
-#
-##
-
-# handlr: A better xdg-utils 
-handlr = "*"
-
-## Misc to be annotated
-
+# ANSI terminal palette converter ↔ true-colour  
 ansi_colours = "*"
+
+#  A simple interface for querying atty 
 atty = "*"
+
+# Automatic cfg for Rust compiler features 
 autocfg = "*"
+
+# A library to acquire a stack trace (backtrace) at runtime in a Rust program. 
 backtrace = "*"
+
+# Arbitrary percision decimal numbers.
+# If you use diesel, then match the diesel dependency version,
+# and include serde, to be able to handle bigdecimal.
+bigdecimal = { version = "= 0.0.14", features = ["serde"] }
+
+# A binary serialization / deserialization strategy that uses Serde for transforming structs into bytes and vice versa!
 bincode = "*"
+
+# A string type that is not required to be valid UTF-8. 
 bstr = "*"
+
+# Library for reading/writing numbers in big-endian and little-endian. 
 byteorder = "*"
+
+# A utility for human-readable bytes representations 
 bytesize = "*"
+
+# Cargo, a package manager for Rust.
 cargo = "*"
+
+# Cargo plugin that adds the 'do' subcommand to let you run multiple cargo commands by running e.g. `cargo do clean, build.
 cargo-do = "*"
+
+# Cargo subcommand that visualizes a crate's dependency graph in a tree-like format 
 cargo-tree = "*"
+
+# Watch over your Cargo project’s source.
 cargo-watch = "*"
-clap = "*"
+
+#  Date and time library for Rust.
+chrono = { version = "*", features = ["serde"] }
+
+# Command Line Argument Parser that is simple to use, efficient, and full-featured.
+clap = {version = "*", features = ["yaml"]}
+
+# A common utility library to control CLI colorization.
 clicolors-control = "*"
+
+# Idiomatic Rust wrappers for Mac OS X's CommonCrypto library.
 commoncrypto = "*"
+
+# FFI bindings to Mac OS X's CommonCrypto library.
 commoncrypto-sys = "*"
+
+# A terminal and console abstraction for Rust.
 console = "*"
+
+# Fast inspection of binary buffers to guess/determine the encoding.
 content_inspector = "*"
+
+# Bindings to Core Foundation for macOS.
 core-foundation-sys = "*"
+
+# Rust bindings to libcurl for making HTTP requests.
 curl = "*"
+
+# A proc-macro library for reading attributes into structs when implementing custom derives.
 darling = "*"
+
+# Rust macro to automatically implement the builder pattern for arbitrary structs.
 derive_builder = "*"
-diesel_cli = "*"
-directories = "*"
-dirs = "*"
-error-chain = "*"
-filetime = "*"
-fixedbitset = "*"
-fnv = "*"
-fsevent = "*"
-git2 = "*"
-glob = "*"
-globset = "*"
-heck = "*"
-home = "*"
-humantime = "*"
-ident_case = "*"
-ignore = "*"
-libnghttp2-sys = "*"
-libssh2-sys = "*"
-libz-sys = "*"
-line-wrap = "*"
-log = "*"
-notify = "*"
-onig = "*"
-onig_sys = "*"
-opener = "*"
-openssl-sys = "*"
-ordermap = "*"
-parking_lot = "*"
-petgraph = "*"
-plist = "*"
-prettyprint = "*"
-regex = "*"
-rustc-demangle = "*"
-rustfix = "*"
-same-file = "*"
-scopeguard = "*"
-serde = "*"
-shell-words = "*"
-sized-chunks = "*"
-smallvec = "*"
-strsim = "*"
-structopt = "*"
-syn = "*"
-syntect = "*"
-tar = "*"
-termcolor = "*"
-termios = "*"
-textwrap = "*"
-toml = "*"
-typenum = "*"
-unicode-segmentation = "*"
-void = "*"
-walkdir = "*"
-watchexec = "*"
-what = "*"
-xml-rs = "*"
-yaml-rust = "*"
-
-##
-#
-# Application favorites
-#
-##
-
-dotenv = "0.9.0"
-
-chrono = { version = "0.4", features = ["serde"] }
-
-# Clap: Command Line Argument Parser for Rust https://clap.rs
-clap = {version = "2.33", features = ["yaml"]}
 
 # Diesel: A safe, extensible ORM and Query Builder for Rust.
 #
@@ -120,14 +90,205 @@ clap = {version = "2.33", features = ["yaml"]}
 #   * r2d2: for Rust connection pooling optimizations
 #   * serde_json: for JSON data types
 #   * uuid: for UUID data types
+#
 diesel = { version = "1.4.2", features = ["128-column-tables", "chrono", "network-address", "numeric", "postgres", "sqlite", "r2d2", "serde_json", "uuid", "url"] }
 
-# Version must match the diesel dependency version.
-# Features must include serde, to be able to handle bigdecimal.
-bigdecimal = { version = "= 0.0.14", features = ["serde"] }
+# Provides the CLI for the Diesel crate 
+diesel_cli = "*"
 
-# Version must match the diesel dependency version
+# Platform-specific standard locations of directories.
+directories = "*"
+
+# Platform-specific standard locations of directories.
+dirs = "*"
+
+# A `dotenv` implementation for Rust.
+dotenv = "0.9.0"
+
+# Drill is a HTTP load testing application written in Rust inspired by Ansible syntax 
+drill = "*"
+
+# Yet another error boilerplate library.
+error-chain = "*"
+
+# Platform-agnostic accessors of timestamps in File metadata 
+filetime = "*"
+
+# FixedBitSet is a simple bitset collection.
+fixedbitset = "*"
+
+# Fowler–Noll–Vo hash function.
+fnv = "*"
+
+# Rust bindings to the fsevent-sys macOS API for file changes notifications 
+fsevent = "*"
+
+# Bindings to libgit2 for interoperating with git repositories.
+git2 = "*"
+
+# Support for matching file paths against Unix shell style patterns. 
+glob = "*"
+
+# Cross platform single glob and glob set matching.
+globset = "*"
+
+# A better xdg-utils 
+handlr = "*"
+
+# Heck is a case conversion library. 
+heck = "*"
+
+# Shared definitions of home directories.
+home = "*"
+
+# A parser and formatter for std::time::{Duration, SystemTime}.
+humantime = "*"
+
+# Utility for applying case rules to Rust identifiers.
+ident_case = "*"
+
+# A fast library for efficiently matching ignore files such as `.gitignore` against file paths.
+ignore = "*"
+
+# A hash table with consistent order and fast iteration. 
+indexmap = "*"
+
+# FFI bindings for libnghttp2 (nghttp2).
+libnghttp2-sys = "*"
+
+# Native bindings to the libssh2 library.
+libssh2-sys = "*"
+
+# Bindings to the system libz library (also known as zlib). 
+libz-sys = "*"
+
+# Efficiently insert line separators.
+line-wrap = "*"
+
+# A lightweight logging facade for Rust.
+log = "*"
+
+# Cross-platform filesystem notification library.
+notify = "*"
+
+# Rust bindings for the Oniguruma regular expression library.
+onig = "*"
+
+# Rust bindings for the Oniguruma regular expression library.
+onig_sys = "*"
+
+# Open a file or link using the system default program. 
+opener = "*"
+
+# FFI bindings to OpenSSL 
+openssl-sys = "*"
+
+# More compact and efficient implementations of the standard synchronization primitives.
+parking_lot = "*"
+
+# Graph data structure library that rovides graph types and graph algorithms.
+petgraph = "*"
+
+# A rusty plist parser. Supports Serde serialization.
+plist = "*"
+
+# Print beautifully formatted files and strings to your terminal.
+prettyprint = "*"
+
+# A generic connection pool.
+# If you use diesel, then match the diesel dependency version.
 r2d2 = "= 0.8.4"
+
+# Random number generation.
+rand = "0.6.5"
+
+# Regular expressions implementation for Rust. 
+regex = "*"
+
+# rust-argon2: Rust library for hashing passwords using Argon2 password-hashing function.
+#
+# For algorithm, we prefer Argon2 (preferrably Argon2id) over Bcrypt, Scrypt, PBKDF2.
+#
+# For Argon2 implementation, we prefer the crate rust-argon2 over:
+#
+#   * argonautica: more idiomatic, and faster, but wraps C, and needs a C compiler.
+#   * argon2rs: more popular, but not updated recently, and lacks Argon2id.
+#
+rust-argon2 = "*"
+
+# Rust compiler symbol demangling.
+rustc-demangle = "*"
+
+# Automatically apply the suggestions made by rustc.
+rustfix = "*"
+
+# Determine whether two file paths point to the same file. 
+same-file = "*"
+
+# A RAII scope guard that will run a given closure when it goes out of scope.
+scopeguard = "*"
+
+# Serde: a framework for serializing and deserializing Rust data structures.
+# The Serde crate has core APIs, including Serialize and Deserialize traits.
+# Always required for Serde. The "derive" feature is only required when
+# using #[derive(Serialize, Deserialize)] to make Serde work with structs
+# and enums defined in your crate.
+serde = { version = "*", features = ["derive"] }
+
+# Macros 1.1 implementation of #[derive(Serialize, Deserialize)].
+# Version must match the serde dependency version.
+serde_derive = "*"
+
+# Serde JSON serialization file format.
+serde_json = { version = "*", features = ["arbitrary_precision"] }
+
+# Serde xml-rs based deserializer.
+serde-xml-rs = "*"
+
+# Serde YAML support.
+serde_yaml = "*"
+
+# Process command line according to parsing rules of UNIX shell.
+shell-words = "*"
+
+# Efficient sized chunk datatypes.
+sized-chunks = "*"
+
+# Small vector optimization: store up to a small number of items on the stack.
+smallvec = "*"
+
+# String similarity metrics: Hamming, Levenshtein, OSA, Damerau-Levenshtein, Jaro, Jaro-Winkler, Sørensen-Dice. 
+strsim = "*"
+
+# Parse command line argument by defining a struct.
+structopt = "*"
+
+# Parser for Rust source code.
+syn = "*"
+
+# Library for high quality syntax highlighting and code intelligence using Sublime Text's grammars 
+syntect = "*"
+
+# TAR file reader and writer.
+tar = "*"
+
+# Cross platform library for writing colored text to a terminal.
+termcolor = "*"
+
+# Safe bindings for the termios library.
+termios = "*"
+
+# Library for word wrapping, indenting, and dedenting strings.
+textwrap = "*"
+
+# Rust encoder and decoder of TOML-formatted files and streams.
+toml = "*"
+
+# Type-level numbers evaluated at compile time.
+typenum = "*"
+
+# Grapheme Cluster, Word and Sentence boundaries according to Unicode Standard Annex #29 rules. 
+unicode-segmentation = "*"
 
 # uuid: Generate and parse UUIDs.
 #
@@ -146,29 +307,20 @@ r2d2 = "= 0.8.4"
 #
 uuid = { version = "= 0.6.5", features = ["serde", "v1", "v3", "v4", "v5"] }
 
-# Serde: a framework for serializing and deserializing Rust data structures.
-# The Serde crate has core APIs, including Serialize and Deserialize traits.
-# Always required for Serde. The "derive" feature is only required when
-# using #[derive(Serialize, Deserialize)] to make Serde work with structs
-# and enums defined in your crate.
-serde = { version = "1.0.91", features = ["derive"] }
+# The uninhabited void type for use in statically impossible cases. 
+void = "*"
 
-# Version must match the serde dependency version
-serde_derive = "1.0.91"
+# Recursively walk a directory. 
+walkdir = "*"
 
-# Each data format lives in its own crate; the sample code below uses JSON.
-serde_json = { version = "1.0.39", features = ["arbitrary_precision"] }
+# Executes commands in response to file modifications.
+watchexec = "*"
 
-# Rand: A Rust library for random number generation.
-rand = "0.6.5"
+# Display current network utilization by process, connection and remote IP/hostname.
+what = "*"
 
-# rust-argon2: Rust library for hashing passwords using Argon2 password-hashing function.
-#
-# For algorithm, we prefer Argon2 (preferrably Argon2id) over Bcrypt, Scrypt, PBKDF2.
-#
-# For Argon2 implementation, we prefer the crate rust-argon2 over:
-#
-#   * argonautica: more idiomatic, and faster, but wraps C, and needs a C compiler.
-#   * argon2rs: more popular, but not updated recently, and lacks Argon2id.
-#
-rust-argon2 = "0.4.0"
+# XML library in pure Rust.
+xml-rs = "*"
+
+# YAML parser for Rust.
+yaml-rust = "*"
