@@ -201,6 +201,9 @@ indexmap = "*"
 # Fast functions for printing integer primitives to an io::Write.
 itoa = "*"
 
+# Language tags for Rust.
+language-tags = "*"
+
 # FFI bindings for libnghttp2 (nghttp2).
 libnghttp2-sys = "*"
 
@@ -231,7 +234,7 @@ onig_sys = "*"
 # Open a file or link using the system default program. 
 opener = "*"
 
-# FFI bindings to OpenSSL 
+# FFI bindings to OpenSSL.
 openssl-sys = "*"
 
 # More compact and efficient implementations of the standard synchronization primitives.
