@@ -77,6 +77,9 @@ commoncrypto = "*"
 # FFI bindings to Mac OS X's CommonCrypto library.
 commoncrypto-sys = "*"
 
+# A 100% CommonMark-compatible GitHub Flavored Markdown parser and formatter.
+comrak = "*"
+
 # A terminal and console abstraction for Rust.
 console = "*"
 
