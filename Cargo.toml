@@ -219,6 +219,9 @@ log = "*"
 # Cross-platform filesystem notification library.
 notify = "*"
 
+# Convert numbers into stack-allocated byte arrays.
+numtoa = "*"
+
 # Rust bindings for the Oniguruma regular expression library.
 onig = "*"
 
