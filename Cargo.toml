@@ -295,6 +295,9 @@ rand = "0.6.5"
 # Random number generator with ChaCha.
 rand_chacha = "*"
 
+# Core random number generator traits and tools for implementation.
+rand_core = "*"
+
 # Regular expressions implementation for Rust. 
 regex = "*"
 
