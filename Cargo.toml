@@ -207,6 +207,9 @@ language-tags = "*"
 # A macro for declaring lazily evaluated statics in Rust. 
 lazy_static = "*"
 
+# Raw FFI bindings to platform libraries like libc.
+libc = "*"
+
 # FFI bindings for libnghttp2 (nghttp2).
 libnghttp2-sys = "*"
 
