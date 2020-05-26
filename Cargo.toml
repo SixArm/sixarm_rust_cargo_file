@@ -6,6 +6,9 @@ edition = "2019"
 
 [dependencies]
 
+# Fast multiple substring searching.
+aho-corasick = "*"
+
 # ANSI terminal palette converter ↔ true-colour  
 ansi_colours = "*"
 
