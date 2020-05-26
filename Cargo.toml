@@ -407,6 +407,9 @@ textwrap = "*"
 # Per-object thread-local storage.
 thread_local = "*"
 
+# Date and time library. Fully interoperable with the standard library.
+time = "*"
+
 # Rust encoder and decoder of TOML-formatted files and streams.
 toml = "*"
 
