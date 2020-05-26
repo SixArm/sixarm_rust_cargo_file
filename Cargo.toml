@@ -279,6 +279,9 @@ plist = "*"
 # Implementation of the crypto-simd API for x86.
 ppv-lite86 = "*"
 
+# Quasi-quoting macro quote!(...) 
+quote = "*"
+
 # Print beautifully formatted files and strings to your terminal.
 prettyprint = "*"
 
