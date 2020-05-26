@@ -234,6 +234,9 @@ matches = "*"
 # Safe interface to memchr.
 memchr = "*"
 
+# Strongly Typed Mimes.
+mime = "*"
+
 # Cross-platform filesystem notification library.
 notify = "*"
 
