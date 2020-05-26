@@ -15,6 +15,9 @@ ansi_colours = "*"
 # Library for ANSI terminal colours and styles (bold, underline).
 ansi_term = "*"
 
+# Poison-free versions of the standard library Mutex and RwLock types.
+antidote = "*"
+
 #  A simple interface for querying atty 
 atty = "*"
 
