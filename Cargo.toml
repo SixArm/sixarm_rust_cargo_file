@@ -189,6 +189,9 @@ hyper-native-tls = "*"
 # Utility for applying case rules to Rust identifiers.
 ident_case = "*"
 
+# IDNA (Internationalizing Domain Names in Applications).
+idna = "*"
+
 # A fast library for efficiently matching ignore files such as `.gitignore` against file paths.
 ignore = "*"
 
