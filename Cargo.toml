@@ -153,6 +153,9 @@ fnv = "*"
 # Rust bindings to the fsevent-sys macOS API for file changes notifications 
 fsevent = "*"
 
+# Cross-platform library for retrieving random data from system source.
+getrandom = "*"
+
 # Bindings to libgit2 for interoperating with git repositories.
 git2 = "*"
 
