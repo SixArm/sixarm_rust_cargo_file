@@ -345,6 +345,9 @@ scopeguard = "*"
 # Security.framework bindings for macOS and iOS.
 security-framework = "*"
 
+# Apple `Security.framework` low-level FFI bindings.
+security-framework-sys = "*"
+
 # Serde: a framework for serializing and deserializing Rust data structures.
 # The Serde crate has core APIs, including Serialize and Deserialize traits.
 # Always required for Serde. The "derive" feature is only required when
