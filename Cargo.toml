@@ -440,6 +440,9 @@ unicode-width = "*"
 # Determine whether characters have the XID_Start or XID_Continue properties according to Unicode Standard Annex #31.
 unicode-xid = "*"
 
+# URL library for Rust, based on the WHATWG URL Standard.
+url = "*"
+
 # uuid: Generate and parse UUIDs.
 #
 # Version must match the diesel dependency version
