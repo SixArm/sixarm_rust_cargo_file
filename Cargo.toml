@@ -180,6 +180,12 @@ httparse = "*"
 # A parser and formatter for std::time::{Duration, SystemTime}.
 humantime = "*"
 
+# A fast and correct HTTP library.
+hyper = "*"
+
+# Hyper native-tls support.
+hyper-native-tls = "*"
+
 # Utility for applying case rules to Rust identifiers.
 ident_case = "*"
 
