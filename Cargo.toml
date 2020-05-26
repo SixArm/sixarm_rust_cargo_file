@@ -422,6 +422,9 @@ typeable = "*"
 # Type-level numbers evaluated at compile time.
 typenum = "*"
 
+# A case-insensitive wrapper around strings.
+unicase = "*"
+
 # Grapheme Cluster, Word and Sentence boundaries according to Unicode Standard Annex #29 rules. 
 unicode-segmentation = "*"
 
