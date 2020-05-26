@@ -71,6 +71,9 @@ clap = {version = "*", features = ["yaml"]}
 # A common utility library to control CLI colorization.
 clicolors-control = "*"
 
+# Simple way to add colors in your terminal.
+colored = "*"
+
 # Idiomatic Rust wrappers for Mac OS X's CommonCrypto library.
 commoncrypto = "*"
 
