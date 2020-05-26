@@ -437,6 +437,9 @@ unicode-segmentation = "*"
 # Determine displayed width of `char` and `str` types according to Unicode Standard Annex #11 rules. 
 unicode-width = "*"
 
+# Determine whether characters have the XID_Start or XID_Continue properties according to Unicode Standard Annex #31.
+unicode-xid = "*"
+
 # uuid: Generate and parse UUIDs.
 #
 # Version must match the diesel dependency version
