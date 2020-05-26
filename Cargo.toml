@@ -413,6 +413,9 @@ time = "*"
 # Rust encoder and decoder of TOML-formatted files and streams.
 toml = "*"
 
+# Unsafe helpers for working with raw trait objects.
+traitobject = "*"
+
 # Type-level numbers evaluated at compile time.
 typenum = "*"
 
