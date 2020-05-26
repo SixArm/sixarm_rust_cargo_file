@@ -27,6 +27,9 @@ autocfg = "*"
 # A library to acquire a stack trace (backtrace) at runtime in a Rust program. 
 backtrace = "*"
 
+# Base64 encode and decode as bytes or utf8.
+base64 = "*"
+
 # Arbitrary percision decimal numbers.
 # If you use diesel, then match the diesel dependency version,
 # and include serde, to be able to handle bigdecimal.
