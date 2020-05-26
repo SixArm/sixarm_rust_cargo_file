@@ -460,6 +460,9 @@ url = "*"
 #
 uuid = { version = "= 0.6.5", features = ["serde", "v1", "v3", "v4", "v5"] }
 
+# A simple map based on a vector for small integer keys.
+vec_map = "*"
+
 # The uninhabited void type for use in statically impossible cases. 
 void = "*"
 
