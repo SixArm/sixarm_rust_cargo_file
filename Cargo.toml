@@ -228,6 +228,9 @@ linked-hash-map = "*"
 # A lightweight logging facade for Rust.
 log = "*"
 
+# A macro to evaluate, as a boolean, whether an expression matches a pattern.
+matches = "*"
+
 # Cross-platform filesystem notification library.
 notify = "*"
 
