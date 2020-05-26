@@ -276,6 +276,9 @@ petgraph = "*"
 # A rusty plist parser. Supports Serde serialization.
 plist = "*"
 
+# Implementation of the crypto-simd API for x86.
+ppv-lite86 = "*"
+
 # Print beautifully formatted files and strings to your terminal.
 prettyprint = "*"
 
