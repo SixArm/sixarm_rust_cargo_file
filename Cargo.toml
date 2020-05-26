@@ -342,6 +342,9 @@ same-file = "*"
 # A RAII scope guard that will run a given closure when it goes out of scope.
 scopeguard = "*"
 
+# Security.framework bindings for macOS and iOS.
+security-framework = "*"
+
 # Serde: a framework for serializing and deserializing Rust data structures.
 # The Serde crate has core APIs, including Serialize and Deserialize traits.
 # Always required for Serde. The "derive" feature is only required when
