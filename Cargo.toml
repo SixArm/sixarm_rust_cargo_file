@@ -463,6 +463,9 @@ uuid = { version = "= 0.6.5", features = ["serde", "v1", "v3", "v4", "v5"] }
 # A simple map based on a vector for small integer keys.
 vec_map = "*"
 
+# Check the version of the installed/running rustc. 
+version_check = "*"
+
 # The uninhabited void type for use in statically impossible cases. 
 void = "*"
 
