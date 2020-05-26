@@ -292,6 +292,9 @@ r2d2 = "= 0.8.4"
 # Random number generation.
 rand = "0.6.5"
 
+# Random number generator with ChaCha.
+rand_chacha = "*"
+
 # Regular expressions implementation for Rust. 
 regex = "*"
 
