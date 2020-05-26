@@ -434,6 +434,9 @@ unicode-normalization = "*"
 # Grapheme Cluster, Word and Sentence boundaries according to Unicode Standard Annex #29 rules. 
 unicode-segmentation = "*"
 
+# Determine displayed width of `char` and `str` types according to Unicode Standard Annex #11 rules. 
+unicode-width = "*"
+
 # uuid: Generate and parse UUIDs.
 #
 # Version must match the diesel dependency version
