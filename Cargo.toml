@@ -425,6 +425,9 @@ typenum = "*"
 # A case-insensitive wrapper around strings.
 unicase = "*"
 
+# Implementation of the Unicode Bidirectional Algorithm.
+unicode-bidi = "*"
+
 # Grapheme Cluster, Word and Sentence boundaries according to Unicode Standard Annex #29 rules. 
 unicode-segmentation = "*"
 
