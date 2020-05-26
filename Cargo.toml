@@ -98,6 +98,9 @@ core-foundation = "*"
 # Bindings to Core Foundation for macOS.
 core-foundation-sys = "*"
 
+# Fast CSV parsing with support for serde.
+csv = "*"
+
 # Rust bindings to libcurl for making HTTP requests.
 curl = "*"
 
