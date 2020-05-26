@@ -307,6 +307,9 @@ regex-automata = "*"
 # A regular expression parser. 
 regex-syntax = "*"
 
+# A safe, reliable implementation of remove_dir_all for Windows.
+remove_dir_all = "*"
+
 # rust-argon2: Rust library for hashing passwords using Argon2 password-hashing function.
 #
 # For algorithm, we prefer Argon2 (preferrably Argon2id) over Bcrypt, Scrypt, PBKDF2.
@@ -323,6 +326,9 @@ rustc-demangle = "*"
 
 # Automatically apply the suggestions made by rustc.
 rustfix = "*"
+
+# Fast floating point to string conversion.
+ryu = "*"
 
 # Determine whether two file paths point to the same file. 
 same-file = "*"
