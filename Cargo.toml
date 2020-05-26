@@ -428,6 +428,9 @@ unicase = "*"
 # Implementation of the Unicode Bidirectional Algorithm.
 unicode-bidi = "*"
 
+# Unicode string normalization.
+unicode-normalization = "*"
+
 # Grapheme Cluster, Word and Sentence boundaries according to Unicode Standard Annex #29 rules. 
 unicode-segmentation = "*"
 
