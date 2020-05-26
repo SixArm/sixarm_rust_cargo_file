@@ -404,6 +404,9 @@ termios = "*"
 # Library for word wrapping, indenting, and dedenting strings.
 textwrap = "*"
 
+# Per-object thread-local storage.
+thread_local = "*"
+
 # Rust encoder and decoder of TOML-formatted files and streams.
 toml = "*"
 
