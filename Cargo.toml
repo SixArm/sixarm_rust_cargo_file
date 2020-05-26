@@ -267,6 +267,9 @@ openssl-sys = "*"
 # More compact and efficient implementations of the standard synchronization primitives.
 parking_lot = "*"
 
+# Percent encoding and decoding.
+percent-encoding = "*"
+
 # Graph data structure library that rovides graph types and graph algorithms.
 petgraph = "*"
 
