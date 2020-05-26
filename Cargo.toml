@@ -204,6 +204,9 @@ itoa = "*"
 # Language tags for Rust.
 language-tags = "*"
 
+# A macro for declaring lazily evaluated statics in Rust. 
+lazy_static = "*"
+
 # FFI bindings for libnghttp2 (nghttp2).
 libnghttp2-sys = "*"
 
