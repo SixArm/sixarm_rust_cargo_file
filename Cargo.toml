@@ -207,6 +207,9 @@ language-tags = "*"
 # A macro for declaring lazily evaluated statics in Rust. 
 lazy_static = "*"
 
+# Lexical, to- and from-string conversion routines.
+lexical-core = "*"
+
 # Raw FFI bindings to platform libraries like libc.
 libc = "*"
 
