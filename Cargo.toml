@@ -333,6 +333,9 @@ rustfix = "*"
 # Fast floating point to string conversion.
 ryu = "*"
 
+# Safe wrappers for memory-accessing functions, like `std::ptr::copy()`.
+safemem = "*"
+
 # Determine whether two file paths point to the same file. 
 same-file = "*"
 
