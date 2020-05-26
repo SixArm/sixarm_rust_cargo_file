@@ -304,6 +304,9 @@ regex = "*"
 # Automata construction and matching using regular expressions.
 regex-automata = "*"
 
+# A regular expression parser. 
+regex-syntax = "*"
+
 # rust-argon2: Rust library for hashing passwords using Argon2 password-hashing function.
 #
 # For algorithm, we prefer Argon2 (preferrably Argon2id) over Bcrypt, Scrypt, PBKDF2.
