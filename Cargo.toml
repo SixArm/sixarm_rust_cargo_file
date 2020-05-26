@@ -231,6 +231,9 @@ log = "*"
 # A macro to evaluate, as a boolean, whether an expression matches a pattern.
 matches = "*"
 
+# Safe interface to memchr.
+memchr = "*"
+
 # Cross-platform filesystem notification library.
 notify = "*"
 
