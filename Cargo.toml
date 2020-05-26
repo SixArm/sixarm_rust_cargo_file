@@ -12,6 +12,9 @@ aho-corasick = "*"
 # ANSI terminal palette converter ↔ true-colour  
 ansi_colours = "*"
 
+# Library for ANSI terminal colours and styles (bold, underline).
+ansi_term = "*"
+
 #  A simple interface for querying atty 
 atty = "*"
 
