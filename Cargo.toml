@@ -219,6 +219,9 @@ libz-sys = "*"
 # Efficiently insert line separators.
 line-wrap = "*"
 
+# A HashMap wrapper that holds key-value pairs in insertion order.
+linked-hash-map = "*"
+
 # A lightweight logging facade for Rust.
 log = "*"
 
