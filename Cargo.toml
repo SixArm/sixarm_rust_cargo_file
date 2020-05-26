@@ -246,6 +246,9 @@ native-tls = "*"
 # Cross-platform filesystem notification library.
 notify = "*"
 
+# Get the number of CPUs on a machine.
+num_cpus = "*"
+
 # Convert numbers into stack-allocated byte arrays.
 numtoa = "*"
 
