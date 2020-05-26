@@ -392,6 +392,9 @@ syntect = "*"
 # TAR file reader and writer.
 tar = "*"
 
+# A library for managing temporary files and directories.
+tempfile = "*"
+
 # Cross platform library for writing colored text to a terminal.
 termcolor = "*"
 
