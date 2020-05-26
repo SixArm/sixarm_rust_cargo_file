@@ -237,6 +237,9 @@ memchr = "*"
 # Strongly Typed Mimes.
 mime = "*"
 
+# Detectd a file's MIME type by its extension. 
+mime_guess = "*"
+
 # Cross-platform filesystem notification library.
 notify = "*"
 
