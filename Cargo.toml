@@ -240,6 +240,9 @@ mime = "*"
 # Detectd a file's MIME type by its extension. 
 mime_guess = "*"
 
+# A wrapper over a platform's native TLS implementation.
+native-tls = "*"
+
 # Cross-platform filesystem notification library.
 notify = "*"
 
