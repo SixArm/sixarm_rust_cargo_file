@@ -9,6 +9,9 @@ edition = "2019"
 # Fast multiple substring searching.
 aho-corasick = "*"
 
+# Library for validation of RS256 JWTs.
+alcoholic_jwt = "1.0.0"
+
 # ANSI terminal palette converter ↔ true-colour  
 ansi_colours = "*"
 
