@@ -316,6 +316,25 @@ regex-syntax = "*"
 # A safe, reliable implementation of remove_dir_all for Windows.
 remove_dir_all = "*"
 
+# Reqeust: higher level HTTP client library.
+#
+# Features:
+#
+#   * default-tls (enabled by default): Provides TLS support to connect over HTTPS.
+#   * native-tls: Enables TLS functionality provided by native-tls.
+#   * native-tls-vendored: Enables the vendored feature of native-tls.
+#   * rustls-tls: Enables TLS functionality provided by rustls.
+#   * blocking: Provides the blocking client API.
+#   * cookies: Provides cookie session support.
+#   * gzip: Provides response body gzip decompression.
+#   * brotli: Provides response body brotli decompression.
+#   * json: Provides serialization and deserialization for JSON bodies.
+#   * stream: Adds support for futures::Stream.
+#   * socks: Provides SOCKS5 proxy support.
+#   * trust-dns: Enables a trust-dns async resolver instead of default threadpool using getaddrinfo.
+#
+reqwest = { version = "*", features = ["blocking", "cookies", "default-tls", "json", "stream"] }
+
 # rust-argon2: Rust library for hashing passwords using Argon2 password-hashing function.
 #
 # For algorithm, we prefer Argon2 (preferrably Argon2id) over Bcrypt, Scrypt, PBKDF2.
