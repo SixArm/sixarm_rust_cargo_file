@@ -342,6 +342,9 @@ plist = "*"
 # Implementation of the crypto-simd API for x86.
 ppv-lite86 = "*"
 
+# Robust domain name parsing and RFC compliant email address validation.
+publicsuffix = "*"
+
 # Quasi-quoting macro quote!(...) 
 quote = "*"
 
