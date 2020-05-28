@@ -330,6 +330,12 @@ percent-encoding = "*"
 # Graph data structure library that rovides graph types and graph algorithms.
 petgraph = "*"
 
+# Crate for pins.
+pin-project = "*"
+pin-project-internal = "*"
+pin-project-lite = "*"
+pin-utils = "*"
+
 # A rusty plist parser. Supports Serde serialization.
 plist = "*"
 
