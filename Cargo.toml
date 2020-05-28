@@ -147,6 +147,9 @@ dotenv = "0.9.0"
 # Drill is a HTTP load testing application written in Rust inspired by Ansible syntax 
 drill = "*"
 
+# Fast functions for printing floating-point primitives to an io::Write.
+dtoa = "*"
+
 # Yet another error boilerplate library.
 error-chain = "*"
 
