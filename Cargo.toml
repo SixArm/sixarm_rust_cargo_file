@@ -165,6 +165,9 @@ fixedbitset = "*"
 # Fowler–Noll–Vo hash function.
 fnv = "*"
 
+# Channels for asynchronous communication using futures-rs.
+futures-channel = "*"
+
 # Rust bindings to the fsevent-sys macOS API for file changes notifications 
 fsevent = "*"
 
