@@ -171,6 +171,9 @@ futures-channel = "*"
 # The core traits and types in for the `futures` library..
 futures-core = "*"
 
+# The `AsyncRead`, `AsyncWrite`, `AsyncSeek`, and `AsyncBufRead` traits for the futures-rs library.
+futures-io = "*"
+
 # Rust bindings to the fsevent-sys macOS API for file changes notifications 
 fsevent = "*"
 
