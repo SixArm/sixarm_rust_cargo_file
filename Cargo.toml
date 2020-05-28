@@ -213,6 +213,9 @@ home = "*"
 # A set of types for representing HTTP requests and responses.
 http = "*"
 
+# Trait representing an asynchronous, streaming, HTTP request or response body.
+http-body = "*"
+
 # A tiny, safe, speedy, zero-copy HTTP/1.x parser.
 httparse = "*"
 
