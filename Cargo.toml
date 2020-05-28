@@ -562,6 +562,9 @@ void = "*"
 # Recursively walk a directory. 
 walkdir = "*"
 
+# Detect when another Future wants a result.
+want = "*"
+
 # Executes commands in response to file modifications.
 watchexec = "*"
 
