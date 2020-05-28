@@ -288,6 +288,9 @@ mime = "*"
 # Detectd a file's MIME type by its extension. 
 mime_guess = "*"
 
+# Lightweight non-blocking IO.
+mio = "*"
+
 # A wrapper over a platform's native TLS implementation.
 native-tls = "*"
 
