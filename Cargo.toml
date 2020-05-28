@@ -198,6 +198,9 @@ glob = "*"
 # Cross platform single glob and glob set matching.
 globset = "*"
 
+# An HTTP/2.0 client and server.
+h2 = "*"
+
 # A better xdg-utils 
 handlr = "*"
 
