@@ -228,6 +228,9 @@ hyper = "*"
 # Hyper native-tls support.
 hyper-native-tls = "*"
 
+# Default TLS implementation for use with hyper.
+hyper-tls = "*"
+
 # Utility for applying case rules to Rust identifiers.
 ident_case = "*"
 
