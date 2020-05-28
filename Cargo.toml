@@ -306,6 +306,9 @@ num_cpus = "*"
 # Convert numbers into stack-allocated byte arrays.
 numtoa = "*"
 
+# Single assignment cells and lazy values.
+once_cell = "*"
+
 # Rust bindings for the Oniguruma regular expression library.
 onig = "*"
 
