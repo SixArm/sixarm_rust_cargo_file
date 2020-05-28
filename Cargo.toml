@@ -168,6 +168,9 @@ fnv = "*"
 # Channels for asynchronous communication using futures-rs.
 futures-channel = "*"
 
+# The core traits and types in for the `futures` library..
+futures-core = "*"
+
 # Rust bindings to the fsevent-sys macOS API for file changes notifications 
 fsevent = "*"
 
