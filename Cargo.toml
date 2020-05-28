@@ -98,6 +98,9 @@ console = "*"
 # Fast inspection of binary buffers to guess/determine the encoding.
 content_inspector = "*"
 
+# Implementation of Cookie storage and retrieval per RFC6265.
+cookie_store = "*"
+
 # Bindings to Core Foundation for macOS.
 core-foundation = "*"
 
