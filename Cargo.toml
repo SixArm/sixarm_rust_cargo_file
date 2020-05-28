@@ -150,6 +150,9 @@ drill = "*"
 # Fast functions for printing floating-point primitives to an io::Write.
 dtoa = "*"
 
+# A Gecko-oriented implementation of the Encoding Standard.
+encoding_rs = "*"
+
 # Yet another error boilerplate library.
 error-chain = "*"
 
