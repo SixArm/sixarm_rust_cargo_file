@@ -294,6 +294,9 @@ mio = "*"
 # A wrapper over a platform's native TLS implementation.
 native-tls = "*"
 
+# Extensions to the standard library's networking types as proposed in RFC 1158.
+net2 = "*"
+
 # Cross-platform filesystem notification library.
 notify = "*"
 
