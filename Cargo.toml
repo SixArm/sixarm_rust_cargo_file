@@ -50,6 +50,9 @@ bstr = "*"
 # Library for reading/writing numbers in big-endian and little-endian. 
 byteorder = "*"
 
+# Types and traits for working with bytes.
+bytes = "*"
+
 # A utility for human-readable bytes representations 
 bytesize = "*"
 
