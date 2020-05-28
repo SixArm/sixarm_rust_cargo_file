@@ -210,6 +210,9 @@ heck = "*"
 # Shared definitions of home directories.
 home = "*"
 
+# A set of types for representing HTTP requests and responses.
+http = "*"
+
 # A tiny, safe, speedy, zero-copy HTTP/1.x parser.
 httparse = "*"
 
