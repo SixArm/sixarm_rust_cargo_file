@@ -500,6 +500,9 @@ tokio-util = "*"
 # Rust encoder and decoder of TOML-formatted files and streams.
 toml = "*"
 
+# Trait representing an asynchronous, request / response based, client or server.
+tower-service = "*"
+
 # Unsafe helpers for working with raw trait objects.
 traitobject = "*"
 
