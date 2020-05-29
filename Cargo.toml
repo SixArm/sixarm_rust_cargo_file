@@ -318,7 +318,10 @@ onig_sys = "*"
 # Open a file or link using the system default program. 
 opener = "*"
 
-# FFI bindings to OpenSSL.
+# OpenSSL bindings.
+openssl = "*"
+
+# OpenSSL FFI bindings.
 openssl-sys = "*"
 
 # More compact and efficient implementations of the standard synchronization primitives.
@@ -493,7 +496,7 @@ thread_local = "*"
 time = "*"
 
 # An event-driven, non-blocking I/O platform for writing asynchronous I/O backed applications.
-tokio = "*"
+tokio = { version = "*", features = ["full"] }
 tokio-tls = "*"
 tokio-util = "*"
 
