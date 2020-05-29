@@ -255,6 +255,9 @@ lazy_static = "*"
 # Lexical, to- and from-string conversion routines.
 lexical-core = "*"
 
+# SQLlite library.
+libsqlite3-sys = { version = "*", features = ["bundled"] }
+
 # Raw FFI bindings to platform libraries like libc.
 libc = "*"
 
