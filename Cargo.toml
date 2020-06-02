@@ -468,6 +468,9 @@ shell-words = "*"
 # Efficient sized chunk datatypes.
 sized-chunks = "*"
 
+# Pre-allocated storage for a uniform data type
+slab = "*"
+
 # Small vector optimization: store up to a small number of items on the stack.
 smallvec = "*"
 
