@@ -21,6 +21,9 @@ ansi_term = "*"
 # Poison-free versions of the standard library Mutex and RwLock types.
 antidote = "*"
 
+# Assert that a value matches a pattern
+assert_matches = "*"
+
 #  A simple interface for querying atty 
 atty = "*"
 
@@ -206,6 +209,9 @@ handlr = "*"
 
 # Heck is a case conversion library. 
 heck = "*"
+
+# Encode and decode data to/from hexadecimal representation. 
+hex = "*"
 
 # Shared definitions of home directories.
 home = "*"
