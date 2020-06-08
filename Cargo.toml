@@ -156,6 +156,9 @@ dtoa = "*"
 # A Gecko-oriented implementation of the Encoding Standard.
 encoding_rs = "*"
 
+# A logging implementation for `log` which is configured via an environment variable. 
+env_logger = "*"
+
 # Yet another error boilerplate library.
 error-chain = "*"
 
