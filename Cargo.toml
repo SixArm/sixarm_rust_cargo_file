@@ -101,6 +101,9 @@ console = "*"
 # Fast inspection of binary buffers to guess/determine the encoding.
 content_inspector = "*"
 
+# HTTP cookie parsing and cookie jar management. Supports signed and private (encrypted, authenticated) jars. 
+cookie = "*"
+
 # Implementation of Cookie storage and retrieval per RFC6265.
 cookie_store = "*"
 
