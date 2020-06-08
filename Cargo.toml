@@ -465,6 +465,9 @@ serde_yaml = "*"
 # Process command line according to parsing rules of UNIX shell.
 shell-words = "*"
 
+# A simple logging facility for Rust's log crate.
+simplelog = "*"
+
 # Efficient sized chunk datatypes.
 sized-chunks = "*"
 
