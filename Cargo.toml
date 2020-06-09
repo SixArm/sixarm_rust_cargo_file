@@ -524,6 +524,9 @@ tokio-util = "*"
 # Rust encoder and decoder of TOML-formatted files and streams.
 toml = "*"
 
+# Top for NGINX 
+topngx = "*"
+
 # Trait representing an asynchronous, request / response based, client or server.
 tower-service = "*"
 
