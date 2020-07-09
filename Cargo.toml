@@ -442,6 +442,9 @@ same-file = "*"
 # A RAII scope guard that will run a given closure when it goes out of scope.
 scopeguard = "*"
 
+# Scrypt password-based key derivation function
+scrypt = "*"
+
 # Security.framework bindings for macOS and iOS.
 security-framework = "*"
 
