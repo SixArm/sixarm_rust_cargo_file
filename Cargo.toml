@@ -501,6 +501,9 @@ syntect = "*"
 # TAR file reader and writer.
 tar = "*"
 
+# Tera template engine
+tera = "*"
+
 # A library for managing temporary files and directories.
 tempfile = "*"
 
